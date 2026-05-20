@@ -12,8 +12,8 @@ public class Program
 
     public static void Main()
     {
-        var employees = new LinkedList<int>(new List<int>{1, 4, 2, 5, 3 });
-        employees = new LinkedList<int>(employees.OrderBy(p => p));
-        Print(employees);
+        var numbers = new LinkedList<int>(new List<int>{1, 4, 2, 5, 3 });
+        numbers = new LinkedList<int>(employees.OrderBy(p => p));
+        Print(numbers);
     }
 }
