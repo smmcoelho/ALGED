@@ -18,8 +18,8 @@ string jstring = """
                  """;
 
 // 2. Parse the JSON string into a JSON Node
-var jdoc = JsonNode.Parse(jstring);
+var jnode = JsonNode.Parse(jstring);
 
-Console.WriteLine(jdoc["school"]);
-Console.WriteLine(jdoc["location"]["city"]);
-Console.WriteLine(jdoc["students"][0]["name"]);
+Console.WriteLine(jnode["school"]);
+Console.WriteLine(jnode["location"]["city"]);
+Console.WriteLine(jnode["students"][0]["name"]);
